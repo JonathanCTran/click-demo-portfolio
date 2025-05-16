@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           {/* Text Content */}
           <div className="w-full md:w-2/3 text-center md:text-left animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Hi, I'm <span className="text-primary">Developer</span>
+              Hi, I'm <span className="text-primary">Jonathan</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
               I create beautiful and functional web applications.
