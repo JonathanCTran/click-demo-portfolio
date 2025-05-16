@@ -71,8 +71,11 @@ const Contact: React.FC = () => {
           
           {/* Resume */}
           <a 
-            href="#" 
-            className="md:col-span-2 flex items-center justify-center p-6 bg-card rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border"
+            href="https://docs.google.com/document/d/1gEn7t0PjVAq1ysy8ibufRwV-_uebdQADr5qZmWPnwoY/export?format=pdf" 
+            download="Jonathan_Tran_Resume.pdf"
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="md:col-span-2 flex items-center justify-center p-6 bg-card rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border hover:bg-accent/10"
           >
             <div className="bg-accent/10 p-4 rounded-full mr-4">
               <FileText className="h-6 w-6 text-accent" />
