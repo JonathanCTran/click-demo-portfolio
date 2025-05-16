@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Mail, Phone, MapPin, Linkedin, FileText } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -12,53 +13,75 @@ const Contact: React.FC = () => {
           </p>
         </div>
         
-        <div className="max-w-2xl mx-auto">
-          <form className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-                <input
-                  id="name"
-                  type="text"
-                  className="w-full px-4 py-2 rounded-md border border-input bg-background"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
-                <input
-                  id="email"
-                  type="email"
-                  className="w-full px-4 py-2 rounded-md border border-input bg-background"
-                  required
-                />
-              </div>
+        <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Email */}
+          <a 
+            href="mailto:jonathactran92@gmail.com" 
+            className="flex items-center p-6 bg-card rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border"
+          >
+            <div className="bg-primary/10 p-4 rounded-full mr-4">
+              <Mail className="h-6 w-6 text-primary" />
             </div>
-            
             <div>
-              <label htmlFor="subject" className="block text-sm font-medium mb-2">Subject</label>
-              <input
-                id="subject"
-                type="text"
-                className="w-full px-4 py-2 rounded-md border border-input bg-background"
-                required
-              />
+              <h3 className="font-medium text-lg mb-1">Email</h3>
+              <p className="text-muted-foreground">jonathactran92@gmail.com</p>
             </div>
-            
+          </a>
+          
+          {/* Phone */}
+          <a 
+            href="tel:2152818602" 
+            className="flex items-center p-6 bg-card rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border"
+          >
+            <div className="bg-primary/10 p-4 rounded-full mr-4">
+              <Phone className="h-6 w-6 text-primary" />
+            </div>
             <div>
-              <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-              <textarea
-                id="message"
-                rows={5}
-                className="w-full px-4 py-2 rounded-md border border-input bg-background resize-none"
-                required
-              ></textarea>
+              <h3 className="font-medium text-lg mb-1">Phone</h3>
+              <p className="text-muted-foreground">215-281-8602</p>
             </div>
-            
+          </a>
+          
+          {/* Location */}
+          <div className="flex items-center p-6 bg-card rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border">
+            <div className="bg-primary/10 p-4 rounded-full mr-4">
+              <MapPin className="h-6 w-6 text-primary" />
+            </div>
             <div>
-              <button type="submit" className="btn-primary w-full">Send Message</button>
+              <h3 className="font-medium text-lg mb-1">Location</h3>
+              <p className="text-muted-foreground">Philadelphia, PA</p>
             </div>
-          </form>
+          </div>
+          
+          {/* LinkedIn */}
+          <a 
+            href="https://www.linkedin.com/in/jonathanctran/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="flex items-center p-6 bg-card rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border"
+          >
+            <div className="bg-primary/10 p-4 rounded-full mr-4">
+              <Linkedin className="h-6 w-6 text-primary" />
+            </div>
+            <div>
+              <h3 className="font-medium text-lg mb-1">LinkedIn</h3>
+              <p className="text-muted-foreground">jonathanctran</p>
+            </div>
+          </a>
+          
+          {/* Resume */}
+          <a 
+            href="#" 
+            className="md:col-span-2 flex items-center justify-center p-6 bg-card rounded-lg shadow-sm hover:shadow-md transition-shadow border border-border"
+          >
+            <div className="bg-accent/10 p-4 rounded-full mr-4">
+              <FileText className="h-6 w-6 text-accent" />
+            </div>
+            <div>
+              <h3 className="font-medium text-lg mb-1">My Resume</h3>
+              <p className="text-muted-foreground">View or download my resume</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
