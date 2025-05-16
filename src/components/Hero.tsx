@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
             <div className="rounded-full overflow-hidden border-4 border-primary/20 shadow-xl max-w-[280px] mx-auto">
               <AspectRatio ratio={1/1}>
                 <img 
-                  src="/lovable-uploads/765b48c0-cca3-4e4f-b354-0113c28e76be.png" 
+                  src="/lovable-uploads/43ba262f-823b-411b-8ab0-7742cce8f882.png" 
                   alt="Jonathan Tran" 
                   className="object-cover w-full h-full"
                 />
