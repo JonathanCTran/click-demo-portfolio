@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             href={project.demoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary flex items-center gap-2"
+            className="px-4 py-2 bg-primary text-primary-foreground rounded-md flex items-center gap-2 hover:bg-primary/90 transition-colors"
           >
             View Demo <ExternalLink size={16} />
           </a>
