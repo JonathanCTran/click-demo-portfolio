@@ -27,15 +27,25 @@ export const projects: Project[] = [
     tags: ['React', 'TypeScript', 'DnD Kit', 'Local Storage']
   },
   {
-    id: '4',
+    id: '5',
     title: 'Interactive Python Notebook',
     description: 'A web viewer for Jupyter notebooks with interactive code execution capabilities.',
     image: '/lovable-uploads/2e02ada0-8f9f-48c6-8e49-72490bfb83ef.png',
     demoUrl: 'https://interactive-python-notebook-loader.netlify.app/',
     tags: ['Python', 'JavaScript', 'Pyodide', 'Web Assembly']
   },
+
   {
-    id: '5',
+    id: '4',
+    title: 'Weather Dashboard',
+    description: 'An interactive social media weather platform using weather API',
+    image: '/lovable-uploads/WeatherDashboard.png',
+    demoUrl: 'https://weather-dashboard-demo.netlify.app/',
+    tags: ['React', 'JavaScript', 'Weather API', 'User Authentication']
+  },
+
+  {
+    id: '6',
     title: 'Tic Tac Toe',
     description: 'An interactive Tic Tac Toe game with AI opponent using the minimax algorithm.',
     image: '/lovable-uploads/d19e5aea-2ed6-4da6-a315-95d6cfc1fe8b.png',
@@ -43,7 +53,7 @@ export const projects: Project[] = [
     tags: ['React', 'Game Development', 'AI', 'Minimax Algorithm']
   },
   {
-    id: '6',
+    id: '7',
     title: 'Fitness Tracker',
     description: 'A fitness tracking application to monitor workouts, progress, and set goals.',
     image: '/placeholder.svg',
