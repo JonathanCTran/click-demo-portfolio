@@ -22,7 +22,7 @@ export const projects: Project[] = [
     id: '3',
     title: 'TaskFlow',
     description: 'A Kanban-style task management application with drag and drop functionality.',
-    image: '/lovable-uploads/b4f97b9c-46ce-4600-91ca-048f9d9a50e6.png',
+    image: '/lovable-uploads/TaskFlowKanban.png',
     demoUrl: 'https://project-management-color-flow.netlify.app/',
     tags: ['React', 'TypeScript', 'DnD Kit', 'Local Storage']
   },
