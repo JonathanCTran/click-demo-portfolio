@@ -27,15 +27,6 @@ export const projects: Project[] = [
     tags: ['React', 'TypeScript', 'DnD Kit', 'Local Storage']
   },
   {
-    id: '5',
-    title: 'Interactive Python Notebook',
-    description: 'A web viewer for Jupyter notebooks with interactive code execution capabilities.',
-    image: '/lovable-uploads/2e02ada0-8f9f-48c6-8e49-72490bfb83ef.png',
-    demoUrl: 'https://interactive-python-notebook-loader.netlify.app/',
-    tags: ['Python', 'JavaScript', 'Pyodide', 'Web Assembly']
-  },
-
-  {
     id: '4',
     title: 'Weather Dashboard',
     description: 'An interactive social media weather platform using weather API',
@@ -43,7 +34,14 @@ export const projects: Project[] = [
     demoUrl: 'https://weather-dashboard-demo.netlify.app/',
     tags: ['React', 'JavaScript', 'Weather API', 'User Authentication']
   },
-
+  {
+    id: '5',
+    title: 'Interactive Python Notebook',
+    description: 'A web viewer for Jupyter notebooks with interactive code execution capabilities.',
+    image: '/lovable-uploads/2e02ada0-8f9f-48c6-8e49-72490bfb83ef.png',
+    demoUrl: 'https://interactive-python-notebook-loader.netlify.app/',
+    tags: ['Python', 'JavaScript', 'Pyodide', 'Web Assembly']
+  },
   {
     id: '6',
     title: 'Tic Tac Toe',
